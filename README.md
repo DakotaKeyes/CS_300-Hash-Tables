@@ -9,7 +9,6 @@ eBid_Monthly_Sales_Dec_2016.csv (smaller set of 76 bids)
 This assignment is designed to explore linked lists, so you will implement a singly linked list to hold a collection of bids loaded from a CSV file. We provide a starter console program that uses a menu to enable testing of the hash table logic you will complete. It also allows you to pass in the path to the bids CSV file to be loaded, enabling you to try both files. In this version, the following menu is presented when the program is run:
 
 ***Menu:
-
 Load Bids
 Display All Bids
 Find Bid
@@ -38,17 +37,10 @@ Download the starter program files and copy them to the project’s /src directo
 Because this activity uses C++ 11 features, you may need to add the -std=c++11 compiler switch to the miscellaneous settings.
 
 ***Task 1: Define structures to hold bids. Hint: You may choose either an array or a vector for storage. Note that you may be able to reuse portions of your code from previous assignments to save you time. Look for places you have implemented vectors for storage or a Node structure for a linked list. Reusing code from these labs may save you time.
-
 Task 2: Initialize the structures used to hold bids.
-
 Task 3: Implement code to free storage when a class is destroyed.
-
 Task 4: Implement code to calculate a hash value using the bid ID as the source for calculating the key.
-
 Task 5: Implement code to insert a bid. Be sure to check for key collisions and use the chaining technique with a linked list to store the additional bids.
-
 Task 6: Implement code to print all bids.
-
 Task 7: Implement code to remove a bid.
-
 Task 8: Implement code to search for and return a bid.***
