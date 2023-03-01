@@ -1,6 +1,6 @@
 # CS_300-Hash-Tables
 Hash Tables 
-Requirements & Rubric
+Requirements
 
 The focus of these problems will be working with information extracted from a municipal government data feed containing bids submitted for auction of property. All materials for this lab assignment can be found in the Supporting Materials section below. The data set is provided in two comma-separated files:
 
@@ -36,11 +36,18 @@ Name the project “HashTable”. Remember to pick the correct compiler in Toolc
 Download the starter program files and copy them to the project’s /src directory, replacing the existing auto-generated ones. Remember to right-click on the project in the Project Explorer pane on the left and Refresh the project so it adds all the new files to the src folder underneath.
 Because this activity uses C++ 11 features, you may need to add the -std=c++11 compiler switch to the miscellaneous settings.
 
-***Task 1: Define structures to hold bids. Hint: You may choose either an array or a vector for storage. Note that you may be able to reuse portions of your code from previous assignments to save you time. Look for places you have implemented vectors for storage or a Node structure for a linked list. Reusing code from these labs may save you time.
-Task 2: Initialize the structures used to hold bids.
-Task 3: Implement code to free storage when a class is destroyed.
-Task 4: Implement code to calculate a hash value using the bid ID as the source for calculating the key.
-Task 5: Implement code to insert a bid. Be sure to check for key collisions and use the chaining technique with a linked list to store the additional bids.
-Task 6: Implement code to print all bids.
-Task 7: Implement code to remove a bid.
-Task 8: Implement code to search for and return a bid.***
+**Task 1: Define structures to hold bids. Hint: You may choose either an array or a vector for storage. Note that you may be able to reuse portions of your code from previous assignments to save you time. Look for places you have implemented vectors for storage or a Node structure for a linked list. Reusing code from these labs may save you time.**
+
+**Task 2: Initialize the structures used to hold bids.**
+
+**Task 3: Implement code to free storage when a class is destroyed.**
+
+**Task 4: Implement code to calculate a hash value using the bid ID as the source for calculating the key.**
+
+**Task 5: Implement code to insert a bid. Be sure to check for key collisions and use the chaining technique with a linked list to store the additional bids.**
+
+**Task 6: Implement code to print all bids.**
+
+**Task 7: Implement code to remove a bid.**
+
+**Task 8: Implement code to search for and return a bid.***
